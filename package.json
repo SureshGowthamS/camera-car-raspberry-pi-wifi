@@ -1,0 +1,29 @@
+{
+    "name": "WifiCar",
+    "version": "1.0.0",
+    "description": "Car with camera controlled by raspberry pi through WiFi",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodejs server.js"
+    },
+    "keywords": [
+        "raspberrypi",
+        "wifi",
+        "camera",
+        "car"
+    ],
+    "author": "SureshGowtham S",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.16.3",
+        "pigpio": "^1.1.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SureshGowthamS/camera-car-raspberry-pi-wifi.git"
+    },
+    "bugs": {
+        "url": "https://github.com/SureshGowthamS/camera-car-raspberry-pi-wifi/issues"
+    },
+    "homepage": "https://github.com/SureshGowthamS/camera-car-raspberry-pi-wifi#readme"
+}
